@@ -1,0 +1,8 @@
+resources:
+  - name: dvwa
+    type: GitRepo
+    configuration:
+      gitProvider: githubtest
+      path: nikkipatel19/dvwa
+      branches:
+        include: master
